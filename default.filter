@@ -1,0 +1,245 @@
+// ItemDisplay[NMAG NORM]: will hide runes, misc and everything related, pd2 devs are retards
+
+ItemDisplay[(GOLD<100 OR (GOLD<1200 CLVL>50))]:
+
+// weapons general:
+ItemDisplay[INF]:
+ItemDisplay[NMAG SOCKETS=1]:
+ItemDisplay[NMAG NORM AXE]:
+ItemDisplay[NMAG NORM MACE]:
+ItemDisplay[NMAG NORM SWORD SOCKETS<4]:
+ItemDisplay[NMAG NORM SPEAR SOCKETS<4]:
+ItemDisplay[NMAG NORM POLEARM SOCKETS<4]:
+ItemDisplay[NMAG EXC AXE SOCKETS=0]:
+ItemDisplay[NMAG EXC MACE SOCKETS=0]:
+ItemDisplay[NMAG EXC SWORD SOCKETS=0]:
+ItemDisplay[NMAG EXC SPEAR SOCKETS=0]:
+ItemDisplay[NMAG EXC POLEARM SOCKETS<4]:
+ItemDisplay[MAG NORM !JEWELRY !CHARM !MISC !CIRC !BOOTS !GLOVES]:
+ItemDisplay[NMAG SPEAR SOCKETS<4]:
+ItemDisplay[NMAG POLEARM SOCKETS<4]:
+
+// misc:
+ItemDisplay[tsc]:
+ItemDisplay[isc]:
+ItemDisplay[tbk]:
+ItemDisplay[ibk]:
+ItemDisplay[key]:
+
+// arrows/bolts:
+ItemDisplay[aqv]:
+ItemDisplay[aqv2]:
+ItemDisplay[aqv3]:
+ItemDisplay[cqv]:
+ItemDisplay[cqv2]:
+ItemDisplay[cqv3]:
+
+// gems:
+ItemDisplay[gcv]:
+ItemDisplay[gcy]:
+ItemDisplay[gcb]:
+ItemDisplay[gcg]:
+ItemDisplay[gcr]:
+ItemDisplay[gcw]:
+ItemDisplay[skc]:
+// ItemDisplay[gsv]:
+// ItemDisplay[gsy]:
+// ItemDisplay[gsb]:
+// ItemDisplay[gsg]:
+// ItemDisplay[gsr]:
+// ItemDisplay[gsw]:
+// ItemDisplay[sku]:
+
+// potions:
+ItemDisplay[rvs CLVL>50]:
+ItemDisplay[yps]:
+ItemDisplay[wms]:
+ItemDisplay[vps]:
+ItemDisplay[tpfs]:
+ItemDisplay[tpfm]:
+ItemDisplay[tpfl]:
+ItemDisplay[tpgs]:
+ItemDisplay[tpgm]:
+ItemDisplay[tpgl]:
+ItemDisplay[tpcs]:
+ItemDisplay[tpcm]:
+ItemDisplay[tpcl]:
+ItemDisplay[tpls]:
+ItemDisplay[tplm]:
+ItemDisplay[tpll]:
+ItemDisplay[hp1 CLVL>15]:
+ItemDisplay[hp2 CLVL>30]:
+ItemDisplay[hp3 CLVL>50]:
+ItemDisplay[hp4 CLVL>82]:
+ItemDisplay[mp1 CLVL>15]:
+ItemDisplay[mp2 CLVL>30]:
+ItemDisplay[mp3 CLVL>50]:
+ItemDisplay[mp4 CLVL>82]:
+
+// amazon weapons:
+ItemDisplay[am1 !CRAFT !SET !RARE]:
+ItemDisplay[am2 !CRAFT !SET !RARE]:
+ItemDisplay[am3 !CRAFT !SET !RARE]:
+ItemDisplay[am4 !CRAFT !SET !RARE]:
+ItemDisplay[am5 !CRAFT !SET !RARE]:
+ItemDisplay[am6 !CRAFT !SET !RARE]:
+ItemDisplay[am7 !CRAFT !SET !RARE]:
+ItemDisplay[am8 !CRAFT !SET !RARE]:
+ItemDisplay[am9 !CRAFT !SET !RARE]:
+ItemDisplay[amb !CRAFT !SET !RARE !UNI]:
+ItemDisplay[amc !CRAFT !SET !RARE !UNI]:
+ItemDisplay[amd !CRAFT !SET !RARE !UNI]:
+ItemDisplay[ame !CRAFT !SET !RARE !UNI]:
+ItemDisplay[amf !CRAFT !SET !RARE !UNI]:
+
+// assassin weapons:
+ItemDisplay[ktr !CRAFT !SET !RARE]:
+ItemDisplay[wrb !CRAFT !SET !RARE]:
+ItemDisplay[axf !CRAFT !SET !RARE]:
+ItemDisplay[ces !CRAFT !SET !RARE]:
+ItemDisplay[clw !CRAFT !SET !RARE]:
+ItemDisplay[btl !CRAFT !SET !RARE]:
+ItemDisplay[skr !CRAFT !SET !RARE]:
+ItemDisplay[9ar !CRAFT !SET !RARE]:
+ItemDisplay[9wb !CRAFT !SET !RARE]:
+ItemDisplay[9xf !CRAFT !SET !RARE]:
+ItemDisplay[9cs !CRAFT !SET !RARE]:
+ItemDisplay[9lw !CRAFT !SET !RARE]:
+ItemDisplay[9tw !CRAFT !SET !RARE]:
+ItemDisplay[9qr !CRAFT !SET !RARE]:
+ItemDisplay[7ar !CRAFT !SET !RARE]:
+ItemDisplay[7wb !CRAFT !SET !RARE]:
+ItemDisplay[7xf !CRAFT !SET !RARE !UNI]:
+ItemDisplay[7cs !CRAFT !SET !RARE !UNI]:
+ItemDisplay[7lw !CRAFT !SET !RARE !UNI]:
+ItemDisplay[7tw !CRAFT !SET !RARE !UNI]:
+ItemDisplay[7qr !CRAFT !SET !RARE !UNI]:
+
+// crossbows:
+ItemDisplay[lxb !CRAFT !SET !RARE]:
+ItemDisplay[mxb !CRAFT !SET !RARE]:
+ItemDisplay[hxb !CRAFT !SET !RARE]:
+ItemDisplay[rxb !CRAFT !SET !RARE]:
+ItemDisplay[8lx !CRAFT !SET !RARE]:
+ItemDisplay[8mx !CRAFT !SET !RARE]:
+ItemDisplay[8hx !CRAFT !SET !RARE]:
+ItemDisplay[8rx !CRAFT !SET !RARE]:
+ItemDisplay[6lx !CRAFT !SET !RARE]:
+ItemDisplay[6mx !CRAFT !SET !RARE]:
+ItemDisplay[6hx !CRAFT !SET !RARE !UNI]:
+ItemDisplay[6rx !CRAFT !SET !RARE !UNI]:
+
+// bows:
+ItemDisplay[sbw !CRAFT !SET !RARE]:
+ItemDisplay[hbw !CRAFT !SET !RARE]:
+ItemDisplay[lbw !CRAFT !SET !RARE]:
+ItemDisplay[cbw !CRAFT !SET !RARE]:
+ItemDisplay[sbb !CRAFT !SET !RARE]:
+ItemDisplay[lbb !CRAFT !SET !RARE]:
+ItemDisplay[swb !CRAFT !SET !RARE]:
+ItemDisplay[lwb !CRAFT !SET !RARE]:
+ItemDisplay[8sb !CRAFT !SET !RARE]:
+ItemDisplay[8hb !CRAFT !SET !RARE]:
+ItemDisplay[8lb !CRAFT !SET !RARE]:
+ItemDisplay[8cb !CRAFT !SET !RARE]:
+ItemDisplay[8s8 !CRAFT !SET !RARE]:
+ItemDisplay[8sw !CRAFT !SET !RARE]:
+ItemDisplay[8l8 !CRAFT !SET !RARE]:
+ItemDisplay[8lw !CRAFT !SET !RARE]:
+ItemDisplay[6sb !CRAFT !SET !RARE]:
+ItemDisplay[6hb !CRAFT !SET !RARE]:
+ItemDisplay[6lb !CRAFT !SET !RARE]:
+ItemDisplay[6cb !CRAFT !SET !RARE]:
+ItemDisplay[6s7 !CRAFT !SET !RARE]:
+ItemDisplay[6l7 !CRAFT !SET !RARE !UNI]:
+ItemDisplay[6sw !CRAFT !SET !RARE !UNI]:
+ItemDisplay[6lw !CRAFT !SET !RARE !UNI]:
+
+// javelins:
+ItemDisplay[jav !CRAFT !SET !RARE]:
+ItemDisplay[pil !CRAFT !SET !RARE]:
+ItemDisplay[ssp !CRAFT !SET !RARE]:
+ItemDisplay[glv !CRAFT !SET !RARE]:
+ItemDisplay[tsp !CRAFT !SET !RARE]:
+ItemDisplay[9ja !CRAFT !SET !RARE]:
+ItemDisplay[9pi !CRAFT !SET !RARE]:
+ItemDisplay[9s9 !CRAFT !SET !RARE]:
+ItemDisplay[9gl !CRAFT !SET !RARE]:
+ItemDisplay[9ts !CRAFT !SET !RARE]:
+ItemDisplay[7ja !CRAFT !SET !RARE]:
+ItemDisplay[7pi !CRAFT !SET !RARE]:
+ItemDisplay[7s7 !CRAFT !SET !RARE !UNI]:
+ItemDisplay[7gl !CRAFT !SET !RARE !UNI]:
+ItemDisplay[7ts !CRAFT !SET !RARE !UNI]:
+
+// throwing weapons:
+ItemDisplay[tkf !CRAFT !SET !RARE]:
+ItemDisplay[tax !CRAFT !SET !RARE]:
+ItemDisplay[bkf !CRAFT !SET !RARE]:
+ItemDisplay[bal !CRAFT !SET !RARE]:
+ItemDisplay[9tk !CRAFT !SET !RARE]:
+ItemDisplay[9ta !CRAFT !SET !RARE]:
+ItemDisplay[9bk !CRAFT !SET !RARE]:
+ItemDisplay[9b8 !CRAFT !SET !RARE]:
+ItemDisplay[7tk !CRAFT !SET !RARE]:
+ItemDisplay[7ta !CRAFT !SET !RARE !UNI]:
+ItemDisplay[7bk !CRAFT !SET !RARE !UNI]:
+ItemDisplay[7b8 !CRAFT !SET !RARE !UNI]:
+
+// daggers:
+ItemDisplay[dgr !CRAFT !SET !RARE !UNI]:
+ItemDisplay[dir !CRAFT !SET !RARE !UNI]:
+ItemDisplay[kri !CRAFT !SET !RARE !UNI]:
+ItemDisplay[bld !CRAFT !SET !RARE !UNI]:
+ItemDisplay[9dg !CRAFT !SET !RARE !UNI]:
+ItemDisplay[9di !CRAFT !SET !RARE !UNI]:
+ItemDisplay[9kr !CRAFT !SET !RARE !UNI]:
+ItemDisplay[9bl !CRAFT !SET !RARE !UNI]:
+ItemDisplay[7dg !CRAFT !SET !RARE !UNI]:
+ItemDisplay[7di !CRAFT !SET !RARE !UNI]:
+ItemDisplay[7kr !CRAFT !SET !RARE !UNI]:
+ItemDisplay[7bl !CRAFT !SET !RARE !UNI]:
+
+// swords:
+// ItemDisplay[ssd]:
+// ItemDisplay[scm]:
+// ItemDisplay[sbr]:
+// ItemDisplay[flc]:
+// ItemDisplay[crs]:
+// ItemDisplay[bsd]:
+// ItemDisplay[lsd]:
+// ItemDisplay[wsd]:
+// ItemDisplay[2hs]:
+// ItemDisplay[clm]:
+// ItemDisplay[gis]:
+// ItemDisplay[bsw]:
+// ItemDisplay[flb]:
+// ItemDisplay[gsd]:
+// ItemDisplay[9ss]:
+// ItemDisplay[9sm]:
+// ItemDisplay[9sb]:
+// ItemDisplay[9fc]:
+// ItemDisplay[9cr]:
+// ItemDisplay[9bs]:
+// ItemDisplay[9ls]:
+// ItemDisplay[9wd]:
+// ItemDisplay[92h]:
+// ItemDisplay[9cm]:
+// ItemDisplay[9gs]:
+// ItemDisplay[9b9]:
+// ItemDisplay[9fb]:
+// ItemDisplay[9gd]:
+// ItemDisplay[7ss]:
+// ItemDisplay[7sm]:
+// ItemDisplay[7sb]:
+// ItemDisplay[7fc]:
+// ItemDisplay[7cr]:
+// ItemDisplay[7bs]:
+// ItemDisplay[7ls]:
+// ItemDisplay[7wd]:
+// ItemDisplay[72h]:
+// ItemDisplay[7cm]:
+// ItemDisplay[7gs]:
+// ItemDisplay[7b7]:
+// ItemDisplay[7fb]:
+// ItemDisplay[7gd]:
