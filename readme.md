@@ -5,7 +5,7 @@
 ## Install
 Put `data` folder and `default.filter` in `C:\Program Files (x86)\Diablo II\ProjectD2\` directory. Create shortcut of `C:\Program Files (x86)\Diablo II\ProjectD2\Diablo II.exe` and start with `-direct -txt -3dfx`.
 
-Loot filter is vanilla friendly. It's for people who don't like to use it but also they don't want to swim in garbage. 
+Loot filter is vanilla friendly. It's for people who don't like to use it but also they don't want to swim in garbage.
 
 ## General changes
 - Higher chance of dropping high runes (not very noticeable, but finding a Zod should be slightly less painful)
@@ -25,6 +25,7 @@ Loot filter is vanilla friendly. It's for people who don't like to use it but al
     - Changed max number of revives. Now it's like in vanilla so max number of revives is the number of Revive skill soft points.
     - Changed HP from [100%] to [200% + (hard point * 20)]
     - Changed duration/level from [10s/level] to [20s/level]
+
 - **Jab**
     - **Fend:** +18% Damage per Level <span style="color:red;">>></span> +20% Damage per Level  
     - **Damage start:** 30% <span style="color:red;">>></span> 50%  
@@ -33,6 +34,34 @@ Loot filter is vanilla friendly. It's for people who don't like to use it but al
 - **Javelin and Spear Mastery**
     - **Damage start:** 40% <span style="color:red;">>></span> 50%  
     - **Damage per level:** 15% <span style="color:red;">>></span> 20%
+
+- **Raven**
+    - Attacks per level: 0 <span style="color:red;">>></span>  Attacks per level: 1
+
+- **Inferno**
+    - **Blaze:** +20% Fire Damage per Level <span style="color:red;">>></span> +30% Fire Damage per Level
+    - **Fire Wall:** +20% Fire Damage per Level <span style="color:red;">>></span> +30% Fire Damage per Level
+
+- **Meteor**
+    - 1.13c
+
+- **Fire Ball**
+    - Combustion: +15% Fire Damage per Level <span style="color:red;">>></span> Meteor: +15% Fire Damage per Level
+
+- **Combustion**
+    - Cooldown: 2.5 sec <span style="color:red;">>></span> 1.2 sec
+
+- **Fire Mastery**
+    - 4% Damage bonus per level <span style="color:red;">>></span> 8% Damage bonus per level
+    - Fire pierce changed (`min((29*(lvl-1))/19 + 1, 40)`):
+
+    | Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 |
+    |-------------|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+    | Fire pierce | 1 | 3 | 4 | 6 | 7 | 9 | 10 | 12 | 13 | 15 | 16 | 18 | 19 | 21 | 22 | 24 | 25 | 27 | 28 | 30 | 32 | 33 | 35 | 36 | 38 | 39 | 40 | 40 | 40 | 40 | 40 | 40 | 40 | 40 | 40 |
+
+- **Cold Mastery**
+    - lower resist per level: 1 <span style="color:red;">>></span> 2
+    - max lower resist: 45 <span style="color:red;">>></span> 80
 
 
 ## Armor:
@@ -46,6 +75,7 @@ Loot filter is vanilla friendly. It's for people who don't like to use it but al
 
 ## Recipes:
 Please use socket recipes after corrupting the item
+
 - rare jewel + any weapon + [1-6] Perfect Amethyst => [1-6] socketed same weapon
 - rare jewel + any armor  + [1-4] Perfect Topaz    => [1-4] socketed same armor
 - rare jewel + any helm   + [1-4] Perfect Sapphire => [1-4] socketed same helm
@@ -180,6 +210,11 @@ Ferocity:
 #### Enigma:
 - +25% Faster Run/Walk > +45% Faster Run/Walk
 - +[500-775] Defense > +800 Defense
+- +14 Life after each Kill > added
+- [0-74]% Better Chance of Getting Magic Items ([0.5-0.75]% per Character Level) (retarded description) > [0-74]% Better Chance of Getting Magic Items (0.75% per Character Level)
+- +[0-74] to Strength (+[0.5-0.75] per Character Level) (retarded description) > +[0-74] to Strength (+0.75 per Character Level)
+- Blink > Teleport
+**NOTE**: They added Blink not because teleport was OP but because Sorceress got nerfed in every possible way. If they kept the Teleport in Enigma, Sorceress would be pretty much removed from the game. Because of their late game changes, Sorceress is so called "S tier" mapper but nothing else, she sucks in every other possible way. This mod changes that so Sorceress is playable and she is still OP in the late game as PD2 devs intended. Teleport is already nerfed so there is no super late game tele stomping with Enigma (only this is enough to justify Blink > Teleprot change). Also Sorceress is buffed in this mod regardless of Enigma changes.
 
 ## Runewords (shields):
 #### Spirit:
