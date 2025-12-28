@@ -160,20 +160,20 @@ Please use socket recipes after corrupting the item
 
 
 ## Runewords (helmets):
-Nadir:
-    +10 Defense > +40 Defense
-Delirium:
-    +261 Defense > +350 Defense
-    11% Chance to Cast Level 18 Confuse on Striking > 25% Chance to Cast Level 18 Confuse on Striking
-Flickering Flame:
-    +2 to Fire Skills > +3 to Fire Skills
-    -[5-10]% to Enemy Fire Resistance > -15% to Enemy Fire Resistance
-Dream:
-    Level 14 Holy Shock Aura when Equipped > Level 20 Holy Shock Aura when Equipped
-Ferocity:
-    [10-12]% Life Stolen per Hit > 15% Life Stolen per Hit
-    12% Chance to Cast Level 10 Taunt on Striking > 20% Chance to Cast Level 10 Taunt on Striking
-    +[150-200]% Enhanced Defense > +[250-300]% Enhanced Defense
+#### Nadir:
+- +10 Defense > +40 Defense
+#### Delirium:
+- +261 Defense > +350 Defense
+- 11% Chance to Cast Level 18 Confuse on Striking > 25% Chance to Cast Level 18 Confuse on Striking
+#### Flickering Flame:
+- +2 to Fire Skills > +3 to Fire Skills
+- -[5-10]% to Enemy Fire Resistance > -15% to Enemy Fire Resistance
+#### Dream:
+- Level 14 Holy Shock Aura when Equipped > Level 20 Holy Shock Aura when Equipped
+#### Ferocity:
+- [10-12]% Life Stolen per Hit > 15% Life Stolen per Hit
+- 12% Chance to Cast Level 10 Taunt on Striking > 20% Chance to Cast Level 10 Taunt on Striking
+- +[150-200]% Enhanced Defense > +[250-300]% Enhanced Defense
 
 
 ## Runewords (armor):
