@@ -1,4 +1,4 @@
-# PD2 rafineria mod single player
+# PD2 rafineria mod single player (Season 12)
 
 #### This mod fixes a few stupid PD2 balance decisions and makes the single-player gameplay more fun (not balanced).
 
